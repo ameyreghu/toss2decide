@@ -40,6 +40,11 @@ class TossScreen extends StatelessWidget {
           actions: [
             TextButton(
                 onPressed: () {
+                  Navigator.of(context).pop();
+                },
+                child: const Text("Retry")),
+            TextButton(
+                onPressed: () {
                   context.read<TossCubit>().resset();
                   Navigator.of(context).pop();
                 },
