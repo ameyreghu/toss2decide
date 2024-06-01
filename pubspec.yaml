@@ -41,6 +41,7 @@ dependencies:
   gap: ^3.0.1
   lottie: ^3.1.2
   google_fonts: ^6.2.1
+  shake_gesture: ^1.0.5
 
 dev_dependencies:
   flutter_test:
