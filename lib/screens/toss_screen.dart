@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -185,13 +186,14 @@ class _TossScreenState extends State<TossScreen> {
                     ),
                   ),
                   const Spacer(),
-                  Text(
-                    "Shake To Toss",
-                    style: GoogleFonts.montserrat(
-                      fontSize: 16,
-                      color: const Color(0xFF3c8ce7),
+                  if (Platform.isAndroid || Platform.isIOS)
+                    Text(
+                      "Shake To Toss",
+                      style: GoogleFonts.montserrat(
+                        fontSize: 16,
+                        color: const Color(0xFF3c8ce7),
+                      ),
                     ),
-                  ),
                   const Spacer(),
                   Text(
                     "ARLABS",
