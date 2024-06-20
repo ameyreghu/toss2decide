@@ -1,16 +1,33 @@
-# toss2decide
+# Toss2Decide - Flutter App for Making Decisions
 
-A new Flutter project.
+Toss2Decide is a handy Flutter app that helps you make those difficult choices by taking the guesswork out of the equation. Simply enter your options, set a priority (optional), and give your phone a shake (Android only) or tap the toss button. The app will then randomly select one of your options, making the decision for 
+you!
 
-## Getting Started
+## Installation:
 
-This project is a starting point for a Flutter application.
+Android: The app is not yet available on the Play Store, but you can try out the development version by following these steps:
 
-A few resources to get you started if this is your first Flutter project:
+Clone the repository: git clone https://github.com/ameyreghu/toss2decide.git
+Navigate to the project directory: cd toss2decide
+Install dependencies: flutter pub get
+Connect your Android device or emulator and run the app: flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Features:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Enter choice to decide upon.
+Set a priority level (low, medium, high) for the option .
+Shake your device (Android only) or tap the toss button for a random selection.
+Clean and user-friendly interface.
+
+### Supported Platforms:
+
+Android (with shake gesture for tossing)
+Windows 
+Should work on ios , web and macos (not tested).
+
+### Screenshots
+![Main Screen](/screenshots/0.png?raw=true "Optional Title")
+![Main Screen](/screenshots/1.png?raw=true "Optional Title")
+![Fail](/screenshots/2.png?raw=true "Optional Title")
+![Loading](/screenshots/3.png?raw=true "Optional Title")
+![Sucess](/screenshots/4.png?raw=true "Optional Title")
